@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Studio Code - Code Editing.Redifined</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./Assets/favicons/favicon-32x32.png"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--Navigation-->
+    <nav style="background-color: #2c2c32">
+      <div class="flex flex-row items-center justify-between mx-40">
+        <div>
+          <img src="./Assets/vscodelogo.PNG" />
+        </div>
+        <div class="nav title">
+          <h1 class="text-white">Visual Studio Code</h1>
+        </div>
+        <div class="text-gray-400 hover:text-white">
+          <h1>Docs</h1>
+        </div>
+
+        <div class="text-gray-400 hover:text-white">
+          <h1>Updates</h1>
+        </div>
+
+        <div class="text-gray-400 hover:text-white">
+          <h1>Blog</h1>
+        </div>
+
+        <div class="text-gray-400 hover:text-white">
+          <h1>API</h1>
+        </div>
+
+        <div class="text-gray-400 hover:text-white">
+          <h1>Extensions</h1>
+        </div>
+
+        <div class="text-gray-400 hover:text-white">
+          <h1>FAQ</h1>
+        </div>
+
+        <div class="text-gray-400 hover:text-white">
+          <h1>Learn</h1>
+        </div>
+
+        <div class="search-docs-input-box flex flex-row">
+          <img src="./Assets/zoom.png" width="20px" height="20px" />
+          <input type="text" placeholder="Search Docs" />
+        </div>
+
+        <div
+          class="download-button flex flex-row"
+          style="background-color: #0066b8"
+        >
+          <img
+            style="color: aliceblue"
+            src="./Assets/download-symbol.png"
+            width="20px"
+            height="20px"
+          />
+          <p class="text-white">Download</p>
+        </div>
+      </div>
+    </nav>
+
+    <section class="educational-purpose" style="background-color: #2c2c32">
+      <marquee class="text-white">This is for educational purpose only</marquee>
+    </section>
+    <!--Section-->
+
+    <!--Version Updates-->
+    <section style="background-color: #25252b" class="version-updates">
+      <div class="mx-40 text-gray-300 text-center">
+        <span class="text-sky-500">Version 1.76 </span>is now available! Read
+        about the new features and fixes from February.
+      </div>
+    </section>
+
+    <!--About vscode and Screenshot-->
+    <section style="background-color: #2c2c32" class="about-vscode">
+      <div class="mx-40 flex flex-row gap-x-40">
+        <div class="about-left-part">
+          <div class="text-white">
+            Code editing. <br /><span>Redefined.</span>
+          </div>
+          <h2 class="text-gray-400">
+            Free. Built on open source. Runs everywhere.
+          </h2>
+          <div class="downlod-windows-button flex flex-row bg-sky-700">
+            <div>
+              <h1 style="color: white">Download for Windows</h1>
+              <h2 style="color: white">Stable build</h2>
+            </div>
+            <img class="down-arrow" src="./Assets/down-arrow.png" />
+          </div>
+          <h1 class="text-sky-600" style="background-color: #25252b">
+            Web, Insiders edition, or other platforms
+          </h1>
+          <h2 class="text-gray-400">By using VS Code, you agree to its</h2>
+          <a class="text-sky-600" href="http://www.google.com"
+            >license and privacy statement.</a
+          >
+        </div>
+
+        <div class="about-right-part">
+          <img src="./Assets/codepicture.PNG" width="650px" height="550px" />
+        </div>
+      </div>
+    </section>
+
+    <!--Features Section-->
+    <section class="flex flex-row bg-white mx-40 items-center justify-between">
+      <div class="intellisense flex flex-col">
+        <img class="w-100px h-100px" src="./Assets/intillsense.PNG" />
+        <h1>Intellisense</h1>
+      </div>
+      <div class="run-and-debug">
+        <img class="w-100px h-100px" src="./Assets/runanddebug.PNG" />
+        <h1>Run and Debug</h1>
+      </div>
+      <div class="built-in-git">
+        <img class="w-100px h-100px" src="./Assets/builtingit.PNG" />
+        <h1>Built-in Git</h1>
+      </div>
+      <div class="extensions">
+        <img class="w-100px h-100px" src="./Assets/extensions.PNG" />
+        <h1>Extensions</h1>
+      </div>
+    </section>
+
+    <!--Testimonals-->
+    <section class="Testimonals bg-zinc-100 py-28">
+      <div class="mx-40 flex flex-row items-center justify-between">
+        <div class="left-arrow-function">
+          <img src="./Assets/left-arrow.png" width="18px" height="18px" />
+        </div>
+
+        <div class="Testimonals-item flex flex-row">
+          <div class="profile-picture" style="border-radius: 5px">
+            <img
+              src="./Assets/userspics/user1.png"
+              width="50px"
+              height="50px"
+              alt="profile picture"
+            />
+          </div>
+
+          <div clas="name-description">
+            <div class="flex flex-row">
+              <div>
+                <h2 class="profile-name">Spiderman <span>@spiderman</span></h2>
+              </div>
+              <div>
+                <img src="./Assets/twitter.png" width="16px" height="16px" />
+              </div>
+            </div>
+            <p class="description">
+              Its is a wonderfull app<br />No 1 code editor in<br />
+              the world of programming<br />Every programmer loves it.
+            </p>
+          </div>
+        </div>
+
+        <div class="Testimonals-item flex flex-row">
+          <div class="profile-picture" style="border-radius: 5px">
+            <img
+              src="./Assets/userspics/user2.png"
+              width="50px"
+              height="50px"
+              alt="profile picture"
+            />
+          </div>
+
+          <div clas="name-description">
+            <div class="flex flex-row">
+              <div>
+                <h2 class="profile-name">Ironman <span>@ironman</span></h2>
+              </div>
+              <div>
+                <img src="./Assets/twitter.png" width="16px" height="16px" />
+              </div>
+            </div>
+            <p class="description">
+              Its is a wonderfull app<br />No 1 code editor in<br />
+              the world of programming<br />Every programmer loves it.
+            </p>
+          </div>
+        </div>
+
+        <div class="Testimonals-item flex flex-row">
+          <div class="profile-picture" style="border-radius: 5px">
+            <img
+              src="./Assets/userspics/user3.png"
+              width="50px"
+              height="50px"
+              alt="profile picture"
+            />
+          </div>
+
+          <div clas="name-description">
+            <div class="flex flex-row">
+              <div>
+                <h2 class="profile-name">Thor <span>@thor</span></h2>
+              </div>
+              <div>
+                <img src="./Assets/twitter.png" width="16px" height="16px" />
+              </div>
+            </div>
+            <p class="description">
+              Its is a wonderfull app<br />No 1 code editor in<br />
+              the world of programming<br />Every programmer loves it.
+            </p>
+          </div>
+        </div>
+
+        <div class="right-arrow-function">
+          <img src="./Assets/right-arrow.png" width="18px" height="18px" />
+        </div>
+      </div>
+    </section>
+
+    <!--Features-->
+    <section class="all-features-vscode grid grid-cols-2">
+      <!--Intellisense Section -->
+      <section class="Intellisense-part1 pl-40 py-28">
+        <div class="feature-image">
+          <img
+            src="./Assets/home-intellisense.svg"
+            width="250px"
+            height="250px"
+          />
+        </div>
+      </section>
+      <section class="Intellisense-part2 pr-40 py-28">
+        <div class="feature-description">
+          <h1>Meet IntelliSense.</h1>
+          <p>
+            Go beyond syntax highlighting and autocomplete with IntelliSense,<br />
+            which provides smart completions based on variable types,
+            function<br />
+            definitions, and imported modules.
+          </p>
+        </div>
+      </section>
+
+      <!--Debugging Section -->
+
+      <section class="Debugging-part1 bg-zinc-100 py-28 pl-40">
+        <div class="feature-description">
+          <h1>Print statement debugging is a thing of the past.</h1>
+          <p>
+            Debug code right from the editor. Launch or attach to your running
+            apps and debug with break points, call stacks, and an interactive
+            console.
+          </p>
+        </div>
+      </section>
+      <section class="Debuging-part2 bg-zinc-100 py-28 pr-40">
+        <div class="feature-image">
+          <img src="./Assets/home-debug.svg" width="250px" height="250px" />
+        </div>
+      </section>
+
+      <!--Git Section -->
+      <section class="Git-part1 py-28 pl-40">
+        <div class="feature-image">
+          <img src="./Assets/home-git.svg" width="250px" height="250px" />
+        </div>
+      </section>
+      <section class="Git-part2 py-28 pr-40">
+        <div class="feature-description">
+          <h1>Git commands built-in.</h1>
+          <p>
+            Working with Git and other SCM providers has never been easier.
+            Review diffs, stage files, and make commits right from the editor.
+            Push and pull from any hosted SCM service.
+          </p>
+        </div>
+      </section>
+
+      <!--Extensible Section -->
+      <section class="Extensible-part1 bg-zinc-100 py-28 pl-40">
+        <div class="feature-description">
+          <h1>Extensible and customizable.</h1>
+          <p>
+            Want even more features? Install extensions to add new languages,
+            themes, debuggers, and to connect to additional services. Extensions
+            run in separate processes, ensuring they won't slow down your
+            editor. Learn more about extensions.
+          </p>
+        </div>
+      </section>
+      <section class="Extensible-part2 bg-zinc-100 py-28 pr-40">
+        <div class="feature-image">
+          <img
+            src="./Assets/Hundreds-of-Extensions.png"
+            width="250px"
+            height="250px"
+          />
+        </div>
+      </section>
+
+      <!--Deployable Section -->
+      <section class="Deployable-part1 py-28 pl-40">
+        <div class="feature-image">
+          <img src="./Assets/home-azure.svg" width="250px" height="250px" />
+        </div>
+      </section>
+      <section class="Deployable-part2 py-28 pr-40">
+        <div class="feature-description">
+          <h1>Deploy with confidence and ease</h1>
+          <p>
+            With Microsoft Azure you can deploy and host your React, Angular,
+            Vue, Node, Python (and more!) sites, store and query relational and
+            document based data, and scale with serverless computing, all with
+            ease, all from within VS Code.
+          </p>
+        </div>
+      </section>
+    </section>
+    <!--VS Code for-->
+    <section class="vscode-for flex flex-col bg-zinc-100 py-28">
+      <div class="mx-40">
+        <div>
+          <h3 class="text-black">VS Code for</h3>
+        </div>
+        <div class="first-part flex flex-row items-center justify-between">
+          <div class="card flex flex-row">
+            <img src="./Assets/languages/js.png" width="20px" height="20px" />
+            <h3>Java Script</h3>
+          </div>
+          <div class="card flex flex-row">
+            <img
+              src="./Assets/languages/python.png"
+              width="20px"
+              height="20px"
+            />
+            <h3>Python</h3>
+          </div>
+          <div class="card flex flex-row">
+            <img src="./Assets/languages/java.png" width="20px" height="20px" />
+            <h3>Java</h3>
+          </div>
+
+          <div class="card flex flex-row">
+            <img
+              src="./Assets/languages/markdown.png"
+              width="20px"
+              height="20px"
+            />
+            <h3>Mark Down</h3>
+          </div>
+
+          <div class="card flex flex-row">
+            <img
+              src="./Assets/languages/typescript.png"
+              width="20px"
+              height="20px"
+            />
+            <h3>Type Script</h3>
+          </div>
+
+          <div class="card flex flex-row">
+            <img src="./Assets/languages/c++.png" width="20px" height="20px" />
+            <h3>C/C++</h3>
+          </div>
+        </div>
+
+        <div class="second-part flex flex-row items-center justify-between">
+          <div class="card flex flex-row">
+            <img
+              src="./Assets/languages/curlybrases.png"
+              width="20px"
+              height="20px"
+            />
+            <h3>JSON</h3>
+          </div>
+
+          <div class="card flex flex-row">
+            <img
+              src="./Assets/languages/powershell.png"
+              width="20px"
+              height="20px"
+            />
+            <h3>Powershell</h3>
+          </div>
+          <div class="card flex flex-row">
+            <img
+              src="./Assets/languages/html and css.png"
+              width="20px"
+              height="20px"
+            />
+            <h3>HTML/CSS</h3>
+          </div>
+          <div class="card flex flex-row">
+            <img
+              src="./Assets/languages/c-sharp.png"
+              width="20px"
+              height="20px"
+            />
+            <h3>C#</h3>
+          </div>
+          <div class="card flex flex-row">
+            <img src="./Assets/languages/php.png" width="20px" height="20px" />
+            <h3>PHP</h3>
+          </div>
+          <div class="card flex flex-row">
+            <img
+              src="./Assets/languages/warning-sign.png"
+              width="20px"
+              height="20px"
+            />
+            <h3>YAML</h3>
+          </div>
+        </div>
+        <a class="text-center" href="http://www.plojhg.com"
+          >and many more languages on the Marketplace...</a
+        >
+
+        <div
+          class="text-center"
+          style="
+            background-color: blue;
+            color: beige;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+          "
+        >
+          Get Started Now
+        </div>
+      </div>
+    </section>
+
+    <!--OS Section-->
+    <section
+      class="OS-section flex flex-row py-28 mx-40 items-center justify-between"
+    >
+      <!--Windows min card-->
+      <div class="main-card">
+        <img src="./Assets/os/windows.png" width="100px" height="50px" />
+        <div
+          class="os-download-button"
+          style="background-color: blue; width: 100px; height: 100px"
+        >
+          <div class="flex flex-row">
+            <img src="./Assets/download.png" width="10px" height="10px" />
+            <p>Windows</p>
+          </div>
+          <p>Windows 8,10,11</p>
+        </div>
+        <div>
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>User Installer</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>x64</p>
+              <p>x86</p>
+              <p>Arm64</p>
+            </div>
+          </div>
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>System Installer</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>x64</p>
+              <p>x86</p>
+              <p>Arm64</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>.Zip</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>x64</p>
+              <p>x86</p>
+              <p>Arm64</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>CLI</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>x64</p>
+              <p>x86</p>
+              <p>Arm64</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Linus Card-->
+      <div class="main-card">
+        <img src="./Assets/os/Linus logo.png" width="100px" height="50px" />
+        <div
+          class="os-download-button"
+          style="background-color: blue; width: 200px; height: 100px"
+        >
+          <div class="flex flex-row">
+            <img src="./Assets/download.png" width="10px" height="10px" />
+            <p>.deb</p>
+          </div>
+          <p>Debian, Ubuntu</p>
+        </div>
+        <div
+          class="os-download-button"
+          style="background-color: blue; width: 200px; height: 100px"
+        >
+          <div class="flex flex-row">
+            <img src="./Assets/download.png" width="10px" height="10px" />
+            <p>.rpm</p>
+          </div>
+          <p>Red Hat, Fedora, SUSE</p>
+        </div>
+        <div>
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>.deb</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>x64</p>
+              <p>Arm32</p>
+              <p>Arm64</p>
+            </div>
+          </div>
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>.rpm</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>x64</p>
+              <p>Arm32</p>
+              <p>Arm64</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>.tar.gz</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>x64</p>
+              <p>Arm32</p>
+              <p>Arm64</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>Snap</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>Snap Store</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>CLI</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>x64</p>
+              <p>Arm32</p>
+              <p>Arm64</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Mac Card-->
+      <div class="main-card">
+        <img src="./Assets/os/mac-os-logo.png" width="100px" height="50px" />
+        <div
+          class="os-download-button"
+          style="background-color: blue; width: 100px; height: 100px"
+        >
+          <div class="flex flex-row">
+            <img src="./Assets/download.png" width="10px" height="10px" />
+            <p>Mac</p>
+          </div>
+          <p>macOS 10.11+</p>
+        </div>
+        <div>
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>.Zip</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>Intel chip</p>
+              <p>Apple sillicon</p>
+              <p>Universal</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row gap-x-60">
+            <div class="left-part">
+              <h3>CLI</h3>
+            </div>
+            <div class="right-part flex flex-row">
+              <p>Intel chip</p>
+              <p>Apple sillicon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--last section-->
+
+    <section class="last-section bg-zinc-100">
+      <div class="mx-40">
+        <div class="last-section-part-1 flex flex-row gap-x-60">
+          <div class="last-section-part1-1">
+            <div>Want new features sooner?</div>
+            <div>Get the Insiders build instead.</div>
+          </div>
+
+          <div class="last-section-part1-2">
+            <div>Use vscode.dev for quick edits online!</div>
+            <div>GitHub, Azure Repos, and local files.</div>
+          </div>
+        </div>
+
+        <div class="last-section-part2">
+          <div>License and Privacy Terms</div>
+          <div>
+            By downloading and using Visual Studio Code, you agree to the
+            license terms and privacy statement. VS Code <br />
+            automatically sends telemetry data and crash dumps to help us
+            improve the product. If you would prefer not<br />
+            to have this data sent please go see How to Disable Crash Reporting
+            to learn how to disable it.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer flex flex-row gap-x-60 bg-neutral-700">
+      <div class="main-footer mx-40">
+        <div class="left-footer flex flex-row">
+          <h1>Hello from Seattle.</h1>
+
+          <h2>Follow @code</h2>
+
+          <img src="./Assets/github-sign.png" width="10px" height="10px" />
+
+          <p>143,419</p>
+        </div>
+
+        <div class="right-footer flex flex-row">
+          <p>Support</p>
+
+          <p>Privacy</p>
+
+          <p>Terms of Use</p>
+
+          <p>License</p>
+
+          <div class="copyright-microsoft flex flex-col">
+            <div class="flex flex-row">
+              <img
+                src="./Assets/download.png"
+                width="10px"
+                height="10px"
+                alt="windowsimage"
+              />
+              <h1>Microsoft</h1>
+            </div>
+            <div>
+              <h1><span>&#169;</span> 2023 Microsoft</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
